@@ -21,7 +21,7 @@ class guest:
 
         #============================== Display Frame ==============================
         
-        Display_Frame = Frame(hello, bd=15, relief= RIDGE, bg='dark red')
+        Display_Frame = Frame(hello, bd=15, relief= RIDGE, bg='#F7F1E5')
         Display_Frame.place(x=0, y=90, width=600, height=540)
 
         #======================= Add title to Display Frame ========================
@@ -35,28 +35,28 @@ class guest:
         details=Label(Display_Frame, text='Following are the room charges per night:',bd=0,font=('Arial',18,'bold'), bg='dark red',fg='black')
         details.grid(row=1,column=0,sticky='w')
      
-        details1=Label(Display_Frame, text='1. Standard Room : Rs. 25,000',bd=0,font=('Arial',18),bg='dark red', fg='black')
+        details1=Label(Display_Frame, text='1. Standard Room : Rs. 25,000',bd=0,font=('Arial',18),bg='#F7F1E5', fg='black')
         details1.grid(row=2,column=0,sticky='w')
 
-        details2=Label(Display_Frame, text='2. Premium Room : Rs. 28,000',bd=0,font=('Arial',18),bg='dark red', fg='black')
+        details2=Label(Display_Frame, text='2. Premium Room : Rs. 28,000',bd=0,font=('Arial',18),bg='#F7F1E5', fg='black')
         details2.grid(row=3,column=0,sticky='w')
 
-        details3=Label(Display_Frame, text='3. Lake View Room: Rs. 32,500',bd=0,font=('Arial',18),bg='dark red', fg='black')
+        details3=Label(Display_Frame, text='3. Lake View Room: Rs. 32,500',bd=0,font=('Arial',18),bg='#F7F1E5', fg='black')
         details3.grid(row=4,column=0,sticky='w')
 
-        details4=Label(Display_Frame, text='4. City View Room: Rs. 36,000',bd=0,font=('Arial',18),bg='dark red', fg='black')
+        details4=Label(Display_Frame, text='4. City View Room: Rs. 36,000',bd=0,font=('Arial',18),bg='#F7F1E5', fg='black')
         details4.grid(row=5,column=0,sticky='w')
 
-        details5=Label(Display_Frame, text='5. Business Class Room : Rs. 40,000',bd=0,font=('Arial',18),bg='dark red', fg='black')
+        details5=Label(Display_Frame, text='5. Business Class Room : Rs. 40,000',bd=0,font=('Arial',18),bg='#F7F1E5', fg='black')
         details5.grid(row=6,column=0,sticky='w')
 
-        details6=Label(Display_Frame, text='6. Executive Suite: Rs. 50,000',bd=0,font=('Arial',18),bg='dark red', fg='black')
+        details6=Label(Display_Frame, text='6. Executive Suite: Rs. 50,000',bd=0,font=('Arial',18),bg='#F7F1E5', fg='black')
         details6.grid(row=7,column=0,sticky='w')
 
-        details7=Label(Display_Frame, text='7. Grand Suite: Rs. 65,000',bd=0,font=('Arial',18),bg='dark red', fg='black')
+        details7=Label(Display_Frame, text='7. Grand Suite: Rs. 65,000',bd=0,font=('Arial',18),bg='#F7F1E5', fg='black')
         details7.grid(row=8,column=0,sticky='w')
 
-        details8=Label(Display_Frame, text='8. Presidential Suite: Rs. 1,00,000',bd=0,font=('Arial',18),bg='dark red', fg='black')
+        details8=Label(Display_Frame, text='8. Presidential Suite: Rs. 1,00,000',bd=0,font=('Arial',18),bg='#F7F1E5', fg='black')
         details8.grid(row=9,column=0,sticky='w')
         
         #======================== Details of Meal charges ==========================
